@@ -258,7 +258,7 @@
     display: flex;
     flex-direction:column;
     align-items: center;
-    gap: 13px;
+    gap: 22px;
     width: 100%;
     padding: 20px;
 }
@@ -277,6 +277,8 @@
 .why-buttons button{
     padding: 18px 25px;
     border: none;
+    font-size: large;
+
 }
 .why-card1{
     height: 100px;
@@ -334,6 +336,7 @@
     margin: 0 auto;
     background-color: white
 }
+
 /* --main-fotter-- */
 .fotter-container{
     width: 100%;
@@ -415,12 +418,12 @@
 .social-container{
     width: 100%;
     margin: 0 auto;
-    background-color:white   
+    background-color:rgb(241, 240, 239)   
 }
 .social-wrap{
     width: 90%;
     margin: 0 auto;
-    background-color: white   }
+    background-color: rgb(241, 240, 239)    }
 .socials{
     padding: 1rem;
     background-color:#f8f8f8;
@@ -431,4 +434,253 @@
     justify-content: center;
     gap: 4rem;
     font-size: 3.5rem;
+}
+-- last- banner
+.lb-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(58, 71, 84);
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+.lb-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgb(58, 71, 84);
+    padding: 23px;
+    overflow-x: auto;
+}
+.hr{
+    width: 76px;
+    height: 1px;
+    background-color: red;
+   margin-top: 5px;
+}
+.cards{
+ width: 100%;
+ height: 111px;
+ color: black;
+ display: flex;
+    gap: 16px;   
+ overflow-y: hidden;
+ overflow-x: auto;
+ border-radius: 2px;
+ 
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+.lb-head span{
+    font-size: larger;
+}
+.card-i{
+    height: 55.5px;
+    width: 55.5px;
+    background-color: azure;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card-content{
+    height: 111px;
+    width: 237px;
+    background-color: white;
+}
+.card-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    flex-shrink: 0;
+    background-color: white;
+    
+    
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+   padding: 3px;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.card-i img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.lb-head span{
+    color: white;
+}
+-- improved-gallery--
+.ig-container{
+    width: 100%;
+    margin:0 auto;
+    background-color: rgb(58, 71, 84);
+}
+.ig-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(58, 71, 84);
+}
+.ig-one{
+    background-color:rgb(58, 71, 84);
+    width: 100%;
+}
+.ig-gallarey{
+    display: flex;
+    height: 350px;
+     flex-direction: column;
+      justify-content: space-around; align-items: center;
+       background-color:  rgb(58, 71, 84); gap: 10px;
+       padding: 10px;
+       padding-top: 20px;   
+}
+.ig-heading{
+    font-size: 40px;
+    color: white;
+     font-weight: 500 ;
+     margin-top: 10px;
+}
+.ig-shop-cards{
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+     gap: 5px; 
+     padding: 10px;
+      margin-bottom: 1px;   
+}
+/* -- shop-by-brand */
+.sbb-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.sbb-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.shop-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width: 100%;
+    height: 260px;
+    gap: 20px;
+    padding-top: 30px ;
+  }
+  .sc-1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    font-weight: 300;
+    font-size: large;
+    border-radius: 10px;
+  }
+  .shop-cards{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px
+  }
+  .shop-head{
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  .shop-hr{
+    width: 150px;
+    background-color: red;
+    height: 3px;
+    font-weight: 500;
+  }
+  /* --from-our-blog-css */
+.f-o-p-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color:white
+}
+.f-o-wrap{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    
+
+}
+.why-main-f {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 18px;
+    width: full;
+}
+.why-buttons-f  {
+    display: flex;
+    padding: 6px;
+
+}
+.why-buttons-f button{
+    padding: 18px 25px;
+    border: none;
+}
+.why-card1-f{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    flex-shrink: 0;
+    height:300px ;
+    width: 250px;
+    border-radius: 20px;
+}
+.why-card-f{
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height:420px;
+    padding:20px;
+    margin-bottom: 30px;
+}
+.product-c-main{
+    flex-shrink: 0;
+}
+.why-head{
+    font-size: large;
+}
+.from-our-blog-hr{
+    width: 200px;
+    height: 2px;
+    background-color: red;
+}
+.see-all-button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.fob-main{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fab-maim-c{
+    padding: 5px;
+}
+.why-head-f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.f-o-b-hr{
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+.why-head-f h1{
+    padding-top: 15px;
 }
