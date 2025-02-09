@@ -1,0 +1,74 @@
+/* -- shop-by-brand */
+.sbb-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.sbb-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.shop-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+    padding-top: 54px ;
+    overflow: hidden;
+  }
+  /* .sc-1{
+    height: 250px; */
+    /* width: 250px;
+    width: 100%; ✅ Make it responsive
+    max-width: 250px; /* ✅ Set a maximum width 
+    height: 250px;
+    background-color: black;
+    font-weight: 300;
+    font-size: large;
+    border-radius: 10px;
+  } */
+  .shop-cards{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px
+  }
+  .shop-head{
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  .shop-hr{
+    width: 150px;
+    background-color: red;
+    height: 3px;
+    font-weight: 500;
+  }
+  .sc-1 img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+}
+.owl-divs{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.owl-divs {
+  width: 230px; 
+  height: 230px;
+  background-color: black;
+  margin: 0; 
+  padding: 0;
+  border-radius: 50%;
+}
+.owl-stage {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.owl-divs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
