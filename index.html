@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
@@ -156,10 +157,11 @@
                         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nihil totam facere eos fuga magni quos assumenda. Necessitatibus eligendi doloremque magni adipisci ab aliquid blanditiis corrupti porro. Obcaecati aspernatur aperiam error animi. Necessitatibus, itaque delectus facilis magnam tempora autem.</h2>
                     </div>
                     <div class="why-buttons">
-                        <button class="why-b-1">Featured</button>
-                        <button class="wc">Latest</button>
-                        <button  class="wc">BestSellers</button>
-                        <button class="wc">Special</button>
+                        <button  class="why-b-1">Featured</button>
+                        <button style ="color:black"class="wc">Latest</button>
+                        <button  style ="color:black"  class="wc">BestSellers</button>
+                        <button  style ="color:black" class="wc">Special</button>
+                        <div class="arrow"><i class="ri-arrow-down-s-fill"></i></div>
                     </div>
                     <div class="why-card">
                          <div class="why-card1">
@@ -219,17 +221,8 @@
             <!-- feature category -->
             <div class="HEADING" id="Featured-category">
                 <h2>Featured Category</h2>
-                <hr
-                  style="
-                    width: 5%;
-                    text-align: left;
-                    margin: 0;
-                    height: 3px;
-                    color: orangered;
-                    background-color: orangered;
-                  "
-                />
-                <p>
+                <div class="new-hr"></div>
+                <p style="font-size: x-large;">
                   Easily create category based modules and display products from specific
                   categories or brands only. The advanced page builder allows you<br />
                   to create any grid layout full control at any breakpoint.
@@ -242,10 +235,10 @@
                     ></div>
                     <div id="imgdiv">
                       <img
-                        src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?cs=srgb&dl=pexels-stefanstefancik-91227.jpg&fm=jpg"
+                        src="./image/m-2.jpg"
                         alt="Portrait"
                       />
-                    </div>
+                    </div class="featured-category-left">
                     <div>Accesories</div>
                     <div>Dresses</div>
                     <div>Pants</div>
@@ -1126,236 +1119,276 @@
                             <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, qui.</h3>
                         </div>
                         <div class="feat-why-buttons-f">
-                            <button style="background-color: blue; color: white;">Featured</button>
+                            <button style="background-color:#0D52D6; color: white;">Featured</button>
                             <button>Latest</button>
                             <button>BestSellers</button>
                             <button>Specials</button>
+                            <div class="arrow"><i class="ri-arrow-down-s-fill"></i></div>
                         </div>
                         <div class="feat-why-card-f">
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
-                            <div class="product-c-main">
-                                <div class="product-c-img">
-                                    <img src="https://i.pinimg.com/736x/ef/f4/be/eff4beeeb5f7ba240b927d906944fe2f.jpg" alt="">
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                          <div class="product-c-main">
+                            <div style="position: relative;" class="product-c-img">
+                                <div style= " font-size: 25px;padding: 0 20px;top: 40px;left:-30px;
+
+                                background-color: #2f72ed;transform: rotate(-45deg); position: absolute;"class="tag-w">
+                                  Custom Labels
                                 </div>
-                                <div class="product-c-img-f">
-                                    <span>Erickson</span>
-                                    <span>Model 519</span>
-                                </div>
-                                <div class="product-c-b">
-                                    <span style="font-size: 42px;">Headphones</span>
-                                    <span style="font-size: 35px;">$800</span>
-                                    <div style="display: flex; justify-content: space-between;">
-                                        <div style="display: flex; gap: 5px; align-items: center;">
-                                            <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
-                                            <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
-                                        </div>
-                                        <div style="font-size: 36px; display: flex; gap: 5px; align-items: center;">
-                                            sdd cdd
-                                        </div>
+                                <img src="./image/m-3.jpg" alt="">
+                            </div>
+                            <div style="background-color: #f0f0f0;" class="product-c-img-f">
+                                <span>Erickson</span>
+                                <span>Model 519</span>
+                            </div>
+                            <div class="product-c-b">
+                                <span style="font-size: 42px;">Headphones</span>
+                                <span style="font-size: 35px;">$800</span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div style="display: flex; gap: 5px; align-items: center;">
+                                        <input type="number" style="width: 34px; height: 39px; font-size: 25px;">
+                                        <button style="padding: 9px; border-radius: 5px; border: none; background-color: rgb(0, 123, 255); font-size: 23px;">Add to cart</button>
+                                    </div>
+                                    <div style="font-size: 26px; display: flex; gap: 20px; align-items: center;">
+                                      <i class="fa-solid fa-heart"></i>  <i class="fa-solid fa-right-left"></i>
                                     </div>
                                 </div>
-                                <div class="product-c-foot">
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>df</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                    <span style="display: flex; gap: 8px; font-size: 26px;">
-                                        <i>fgd</i>
-                                        <span>Buy now</span>
-                                    </span>
-                                </div>
                             </div>
+                            <div class="product-c-foot">
+                                <span style="display: flex; gap: 8px; font-size: 26px;">
+                                  <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>Buy now</span>
+                                </span>
+                                <span style="display: flex; gap: 8px; font-size: 26px; align-items: center;">
+                                            <span style="font-size: 40px;">?</span>
+                                    <span>Questions</span>
+                                </span>
+                            </div>
+                        </div>
+                           
+                            
+                            <!--  -->
+                            
                         </div>
                     </div>
                 </div>
@@ -1418,14 +1451,14 @@
                               </div>
                                <div class="ig-content" style="width:60%;">
                                <p style="font-size: 25px;
-                                       color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum dignissimos mollitia, nam eligendi harum nesciunt illum illo minus reiciendis animi veniam aliquam impedit odit! Facilis, explicabo cupiditate qui, officiis doloribus vitae ex voluptatem veniam sequi, quasi quo recusandae tenetur nesciunt adipisci consequuntur quisquam ratione ab minima quis. Minima, aut!
+                                       color: rgb(175, 176, 177);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad earum dignissimos mollitia, nam eligendi harum nesciunt illum illo minus reiciendis animi veniam aliquam impedit odit! Facilis, explicabo cupiditate qui, officiis doloribus vitae ex voluptatem veniam sequi, quasi quo recusandae tenetur nesciunt adipisci consequuntur quisquam ratione ab minima quis. Minima, aut!
                                   </p>
                               </div>
                            
                           <div class="gallarey-c" style="background-color: transparent; width: 100%; display: flex;
                           justify-content: center;">
                               <div class="owl-carousel">
-                                      <div class="sc-1" style="width: 157px; object-fit: cover; height: 145px; background-color: rgb(58, 71, 84); border-radius: 50px;"><img style =" height: 145px; width: 157px;"src="./image/aksht.jpg" alt=""></div>
+                                      <div class="sc-1" style="width: 157px; object-fit: cover; height: 145px; background-color: rgb(58, 71, 84); border-radius: 20px;"><img style =" height: 145px; width: 157px;"src="./image/aksht.jpg" alt=""></div>
                                       <div class="sc-1" style="width: 157px; object-fit: cover; height: 145px; background-color: rgb(58, 71, 84); border-radius: 50px;"><img style =" height: 145px; width: 157px;"src="./image/aksht.jpg" alt=""></div>
                                       <div class="sc-1" style="width: 157px; object-fit: cover; height: 145px; background-color: rgb(58, 71, 84); border-radius: 50px;"><img style =" height: 145px; width: 157px;"src="./image/aksht.jpg" alt=""></div>
                                       <div class="sc-1" style="width: 157px; object-fit: cover; height: 145px; background-color: rgb(58, 71, 84); border-radius: 50px;"><img style =" height: 145px; width: 157px;"src="./image/aksht.jpg" alt=""></div>
@@ -1465,212 +1498,160 @@
                     <h1>From our blog </h1>
                     <div  class="f-o-b-hr"></div>
                 </div>
-                <div class="whycontent-f">
-                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, qui.</h3>
+                <div  style="font-size: larger;" class="whycontent-f">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eveniet eligendi animi deleniti? Distinctio hic explicabo amet repudiandae consequatur nostrum odio molestias similique alias. Temporibus?</h3>
                 </div>
                 <div class="why-buttons-f">
-                    <button style="background-color: blue;color: white; ">Latest post</button>
+                    <button style="background-color: #0D52D6;color: white; ">Latest post</button>
                     <button >Most Read</button>
+                    <div class="arrow-f"><i class="ri-arrow-down-s-fill"></i></div>
                 </div>
-                <div style = " overflow-y: auto; width: 97%; height: 813px; " class="why-card-f">
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                <div style = " overflow-y: auto; width: 97%; height: 828px;" class="why-card-f">
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: medium;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <div style="background-color: white; color: black; font-size: large;">Read More</div>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                   
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <span style="background-color: white; color: black; font-size: large;">Read More</span>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                   
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <span style="background-color: white; color: black; font-size: large;">Read More</span>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                   
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <span style="background-color: white; color: black; font-size: large;">Read More</span>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                   
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <span style="background-color: white; color: black; font-size: large;">Read More</span>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
+                   
+                    <div class="product-c-main" style="display: flex;position: relative; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
                         <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
                             <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
+                            <div style="position: absolute;top: 20px; left: 15px; display: flex;flex-direction: column;align-items: center;background-color: #0e68e7; font-size: 25px;padding: 5px; color: white;" class="tag-f"><span>02</span> <span>Aug</span></div>
                         </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
+                        <div class="product-c-img-f-n" style="height: 10%; background-color: #f6f6f6; display: flex; justify-content: center; align-items: center; gap: 9px;">
+                            <span style="padding-left: 0px; display: flex;gap: 5px;"><i class="fa-solid fa-user"></i>admin</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i> 38</span>
+                            <span style="padding-right: 0px;" ><i class="fa-solid fa-dollar-sign"></i>1930</span>
                         </div>
                         <div class="fob-main-n">
-                            <div class="fab-main-h-n">
+                            <div  class="fab-main-h-n">
                                 <span>Journal Blog is Here</span>
                             </div>
                             <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
+                                <span style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
                             </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
+                            <div style="background-color: white;" class="fib-main-foot-n">
+                                <span style="background-color: white; color: black; font-size: large;">Read More</span>
                             </div>
                         </div>
                         
                     </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
-                        <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
-                            <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
-                        </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                        </div>
-                        <div class="fob-main-n">
-                            <div class="fab-main-h-n">
-                                <span>Journal Blog is Here</span>
-                            </div>
-                            <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
-                            </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
-                        <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
-                            <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
-                        </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                        </div>
-                        <div class="fob-main-n">
-                            <div class="fab-main-h-n">
-                                <span>Journal Blog is Here</span>
-                            </div>
-                            <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
-                            </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="product-c-main" style="display: flex; flex-direction: column; background-color:transparent; width: 550px;height: 650px;padding:4px 4px ; border-radius: 20px;">
-                        <div class="product-c-img" style="height: 50%;background-color: pink; overflow:hidden ; object-fit:scale-down ;">
-                            <img style="object-fit: cover; width : 100% ;" src="./image/from-our-blog.jpg" alt="">
-                        </div>
-                        <div class="product-c-img-f-n" style="height: 10%; background-color: rgb(139, 145, 152); display: flex; justify-content: center; align-items: center; gap: 9px;">
-                            <span style="padding-left: 0px;">Erickson</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                            <span style="padding-right: 0px;" >Model 519</span>
-                        </div>
-                        <div class="fob-main-n">
-                            <div class="fab-main-h-n">
-                                <span>Journal Blog is Here</span>
-                            </div>
-                            <div class="fab-main-c-n">
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, repudiandae? dssfdsdsfsjflsjdlsj jfljsdlfj jfsldjflkj  jljfdslkjdf lkskjflkdjlfk slj flsdj lfj</span>
-                            </div>
-                            <div class="fib-main-foot-n">
-                                <span>Read More</span>
-                            </div>
-                        </div>
-                        
-                    </div>
+                   
+                    
                  
         
         
@@ -1683,7 +1664,7 @@
             <div class="lb-wrapper">
                 <nav class="card-main">
                     <div class="lb-head">
-                        <span>Most viewed</span>
+                        <span style="color: white;">Most viewed</span>
                         <div class="hr"></div>
                     </div>
         
@@ -1695,7 +1676,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1705,7 +1686,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1715,7 +1696,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1725,7 +1706,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1735,7 +1716,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1745,7 +1726,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1755,7 +1736,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1765,7 +1746,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1775,7 +1756,7 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
                         <div class="card-1">
@@ -1785,9 +1766,31 @@
                             <div class="card-content">
                                 <span class="cc-c">Oversized sunglasses for all</span>
                                 <div class="cc-n">$999</div>
-                                <div class="cc-i">@ @ @</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
                             </div>
                         </div>
+                        <div class="card-1">
+                            <div class="card-i">
+                                <img src="./image/mv.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="cc-c">Oversized sunglasses for all</span>
+                                <div class="cc-n">$999</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
+                            </div>
+                        </div>
+                        <div class="card-1">
+                            <div class="card-i">
+                                <img src="./image/mv.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <span class="cc-c">Oversized sunglasses for all</span>
+                                <div class="cc-n">$999</div>
+                                <div  style =" display: flex; gap: 60px; font-size: 20px;"class="cc-i"> <i class="fa-solid fa-right-left"></i>  <i class="fa-solid fa-heart"></i> $</div>
+                            </div>
+                        </div>
+                        
+                        
                         
         
                         
@@ -1802,7 +1805,7 @@
                 <div class="testimonial">
                   <div class="about">
                       <div class="about-head">
-                          <h1>What people say about us?</h1>
+                          <h1>What people sayin about us?</h1>
                           <div class="about-hr"></div>
               
                       </div>
@@ -1811,7 +1814,7 @@
                   <div id="c" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         
-                        <div class="carousel-item" style="justify-content: center;">
+                        <div class="carousel-item" style="justify-content: center;margin-bottom: 17px;">
                           <div class="test" style="overflow-x: auto;">
                               <div class="test-card">
                                   <i class="fa-solid fa-quote-left" style="color: #f57905;"></i>
@@ -1963,7 +1966,7 @@
                                         <li>Gift Certification</li>
                                     </ul>
                                 </div>
-                                <div class="zm-1"> <ul class="zm-list">
+                                <div style="border: none;" class="zm-1"> <ul style="color: black; " class="zm-list">
                                     <li class="about-h">Newsletter</li>
                                     <div class="hr"></div>
                                     <li><p>Lorem ipsum dolor sit amet.</p></li>
